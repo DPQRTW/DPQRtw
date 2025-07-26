@@ -1,13 +1,24 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>臺灣防災速報</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>臺灣防災速報 臺灣災害警報</title>
   <style>
-    body { font-family: "Noto Sans TC", sans-serif; background: #eef6ff; color: #333; text-align: center; padding: 60px 20px; }
-    h1 { color: #1976d2; font-size: 2.2rem; }
-    p { font-size: 1.2rem; }
+    body {
+      font-family: "Noto Sans TC", sans-serif;
+      background-color: #eef6ff;
+      color: #333;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    h1 {
+      color: #1976d2;
+      font-size: 2.2rem;
+    }
+    p {
+      font-size: 1.2rem;
+    }
     .login-btn {
       background-color: #24292e;
       color: white;
@@ -17,12 +28,22 @@
       border-radius: 8px;
       cursor: pointer;
       margin-top: 30px;
+      transition: background-color 0.3s;
+    }
+    .login-btn:hover {
+      background-color: #444;
+    }
+    .logo {
+      width: 100px;
+      margin-bottom: 20px;
     }
   </style>
 </head>
 <body>
+  <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub 徽標" class="logo" />
   <h1>歡迎使用《臺灣防災速報》</h1>
   <p>請先登入 GitHub 開始使用防災服務。</p>
   <button class="login-btn">👉 用 GitHub 登入</button>
 </body>
 </html>
+
