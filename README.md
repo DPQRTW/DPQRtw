@@ -1,53 +1,24 @@
-<!DOCTYPE html>
-<html lang="zh-TW">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>臺灣防災速報 Taiwan Disaster Alert</title>
-  <style>
-    body {
-      font-family: "Noto Sans TC", sans-serif;
-      background-color: #eef6ff;
-      color: #333;
-      text-align: center;
-      padding: 60px 20px;
-    }
+# 臺灣防災速報
 
-    h1 {
-      color: #1976d2;
-      font-size: 2.2rem;
-    }
+歡迎使用《臺灣防災速報》，這是一個無廣告的防災資訊平台，提供即時地震、颱風、高溫警報、避難所與急救資源資訊。
 
-    p {
-      font-size: 1.2rem;
-    }
+請先登入 GitHub 開始使用防災服務。
 
-    .login-btn {
-      background-color: #24292e;
-      color: white;
-      font-size: 1.2rem;
-      padding: 12px 24px;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-      margin-top: 30px;
-      transition: background-color 0.3s;
-    }
+---
 
-    .login-btn:hover {
-      background-color: #444;
-    }
+## 功能
 
-    .logo {
-      width: 100px;
-      margin-bottom: 20px;
-    }
-  </style>
-</head>
-<body>
-  <img class="logo" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" />
-  <h1>歡迎使用《臺灣防災速報》</h1>
-  <p>請先登入 GitHub 開始使用防災服務。</p>
+- 地震速報（中央氣象署 CAP XML）
+- 高溫警報（Windows 9.0.0）
+- 即時推播（Firebase，支援 Android/iOS）
+- 可安裝的 PWA App
+- 3D 地圖顯示災情（CesiumJS）
+- 顯示避難處所、AED 裝置位置
+- 提供 CPR 教學及急救先鋒功能模組
+- 整合臺灣防災資訊（地震、颱風、淹水、土石流等）
+- 即時空拍與監視器畫面（交通部、水利署等來源）
+- 無廣告介面
 
-  <a href="https://github.com/login/oauth/authorize?client_id=Ov23liXMZrOwHfV28QDq&redirect_uri=https://dpqr-tw.github.io/app/">
-    <button class="login-btn">👉 用 GitHub 登入</
+---
+
+📱 系統持續更新中，歡迎參與開發！
