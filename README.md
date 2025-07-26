@@ -1,16 +1,53 @@
-## Hi there 👋
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>臺灣防災速報 Taiwan Disaster Alert</title>
+  <style>
+    body {
+      font-family: "Noto Sans TC", sans-serif;
+      background-color: #eef6ff;
+      color: #333;
+      text-align: center;
+      padding: 60px 20px;
+    }
 
-<!--
-**DPQRTW/DPQRtw** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+    h1 {
+      color: #1976d2;
+      font-size: 2.2rem;
+    }
 
-Here are some ideas to get you started:
+    p {
+      font-size: 1.2rem;
+    }
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    .login-btn {
+      background-color: #24292e;
+      color: white;
+      font-size: 1.2rem;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 30px;
+      transition: background-color 0.3s;
+    }
+
+    .login-btn:hover {
+      background-color: #444;
+    }
+
+    .logo {
+      width: 100px;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <img class="logo" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" />
+  <h1>歡迎使用《臺灣防災速報》</h1>
+  <p>請先登入 GitHub 開始使用防災服務。</p>
+
+  <a href="https://github.com/login/oauth/authorize?client_id=Ov23liXMZrOwHfV28QDq&redirect_uri=https://dpqr-tw.github.io/app/">
+    <button class="login-btn">👉 用 GitHub 登入</
